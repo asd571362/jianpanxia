@@ -3,10 +3,63 @@
 <head>
 	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>键盘侠的网站</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script scr="js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
-	<div class="head" style="text-align: center;font-size: 35px;background-color: #957A7A">ssss</div>
-	<div class="mainbody">ssss</div>
-	<div class="footer">sssss</div>
+	<div class="header">
+		<div class="nav-icon-wrap" onclick="showList()">
+			<div class="nav-icon" ></div><div class="mulu">目录</div>
+		</div>		
+		<div class="brand">键盘侠的网站</div>
+		<div class="nav-list-wrap">
+			<a href="">git</a>
+			<a href="">响应式flex</a>
+			<a href="">bootstrap</a>
+			<a href="">react.js</a>
+		</div>
+	</div>	
+	<div class="mainbody">
+		<div class="nav" id="nav">
+			<ul class="nav-list">
+				git
+				<li><a href="">资源及笔记</a></li>
+				<li><a href="">案例</a></li>
+			</ul>
+			<ul class="nav-list">
+				响应式flex
+				<li><a href="">资源及笔记</a></li>
+				<li><a href="">案例</a></li>
+			</ul>
+			<ul class="nav-list">
+				bootstrap
+				<li><a href="">资源及笔记</a></li>
+				<li><a href="">案例</a></li>
+			</ul>
+			<ul class="nav-list">
+				react.js
+				<li><a href="">资源及笔记</a></li>
+				<li><a href="">案例</a></li>
+			</ul>
+			<ul class="nav-list">
+				待添加......
+			</ul>
+		</div>
+		<div class="note-content">
+		<p>
+			这里是键盘侠的网站<br>
+			分享学习资源和心得<br>
+			欢迎大家多多提意见~<br>
+			交流群：661913674<br>
+		</p>
+			
+		</div>
+	</div>
+	<div class="footer">
+		本站由键盘侠K_MAN制作<br>
+		QQ：317759206
+	</div>
 </body>
+<script src="js/index.js"></script>
 </html>

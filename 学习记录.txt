@@ -28,3 +28,5 @@ commit，再粘贴回本地仓库，提交同步到远程库。
 1.设置<meta name="viewport" content="width=device-width,initail-scale=1.0">
 
 2.尽量使用相对定位和相对宽度。
+
+3.@media 不能更新element事件的状态。

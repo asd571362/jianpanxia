@@ -1,1 +1,136 @@
-/*主页css*/
+/*通用*/
+body{
+	font-size: 1em;
+}
+
+ul{
+	padding: 0;
+	margin: 10px;
+}
+ul,li{
+	list-style: none;
+}
+
+li{
+	padding-left: 1em;
+}
+/*header*/
+.header{
+	display: flex;
+	width: 100%;
+	text-align: center;
+	background-color: #2991F7;
+	color: #fff;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	align-items:center;
+}
+
+.brand{
+	font-size: 2em;
+}
+
+.nav-icon-wrap{
+	display: flex;
+	width: 30%;
+	align-items:center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.nav-icon{
+	width: 25px;
+	height: 25px;
+	background:url(../img/nav-icon.png) -2.2px -2.2px;
+	background-size: 29px 29px;
+	border: 2px solid #fff;
+	border-radius: 14px;
+}
+
+.nav-list-wrap{
+	width: 67%;
+	font-size: 1.2em;
+	display: none;
+}
+
+.nav-list-wrap a{
+	display: inline-block;
+	line-height: 60px;
+	height: 60px;
+	text-decoration: none;
+	color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.nav-list-wrap a:hover{
+	background-color: #524FF4;
+}
+/*mainbody*/
+
+.mainbody{
+	margin-top: 60px;
+	width: 100%;
+	display: flex;
+	position: relative;
+}
+
+.nav{
+	position: absolute;
+	width: 33%;
+	background-color: #DBDADA;
+	display:none;
+}
+
+.nav-list a{
+	text-decoration: none;
+	color: #0B0B0B;
+	font-size: 1.1em;
+}
+
+.nav-list li{
+	line-height: 20px;
+}
+.nav-list li:hover{
+	background-color: #ADA9A9;
+}
+
+.note-content{
+	width: 100%;
+	min-height: 500px;
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+/*footer*/
+.footer{
+	text-align: center;
+}
+
+
+
+/*响应式设置*/
+
+@media screen and (min-width: 600px) {
+	.header{
+		align-items:center;
+	}
+	.nav-icon-wrap{
+		display: none;
+	}
+	.brand{
+		width: 33%;
+	}
+	.nav-list-wrap{
+		display: block;
+	}
+	.nav{
+		display: none;
+	}
+	.note-content{
+		margin-top: 30px;
+		font-size: 1.4em;
+		line-height: 2em;
+	}
+}

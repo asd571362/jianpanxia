@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+	<style>
+		.tt{
+			line-height: 26px;
+		}
+	</style>
+</head>
+<body>
+	<div class="tt">sss</div>
+	<div class="cc" onclick="stop()">ddd</div>
+</body>
+ <script>
+ 	function alerttt() {
+ 		alert("1111");
+ 	}
+
+ 	var a=setTimeout("alerttt()",2500);
+
+ 	function stop(){
+ 		clearTimeout(a);
+ 	}
+ 	
+ </script>
+</html>
